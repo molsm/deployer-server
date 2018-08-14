@@ -1,0 +1,25 @@
+{
+  "name": "deployer-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "serve-dev": "nodemon ./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/molsm/deployer-server.git"
+  },
+  "author": "Maris Mols",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/molsm/deployer-server/issues"
+  },
+  "homepage": "https://github.com/molsm/deployer-server#readme",
+  "dependencies": {
+    "express": "^4.16.3"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.3"
+  }
+}
